@@ -49,6 +49,7 @@ Xbar100000 <- sapply(1:100000,Xbar)
 hist(Xbar100000)
 
 mean(Xbar100000<98)
+#teoria
 pnorm(98,mu,sigma/sqrt(4))
 
 #e
